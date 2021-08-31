@@ -336,6 +336,7 @@ function arlo_tm_contact_form(){
 				if(data===""){
 					jQuery("#contact_form")[0].reset();//To reset form fields on success
 				}
+				return true; 
 				
 			});
 		}
