@@ -644,11 +644,20 @@
 									<div class="arlo_tm_contact_wrap">
 										<div class="main_input_wrap">
 											<form action="https://formspree.io/f/xzbyyedv" method="POST" >
-												<input id="name" type="text" placeholder="你的名字Your Name">
-												<input id="email" type="text" placeholder="你的邮箱Your Email">
-												<textarea id="message" placeholder="你的消息Your Message"></textarea>
-												
-												<button type="submit">发送消息Send Message</button>
+												<label>
+													你的名字Your Name:
+													<input type="name" name="name">
+												</label>
+												<label>
+													你的邮箱Your Email:
+													<input type="email" name="email">
+												</label>
+												<label>
+													你的消息Your Message:
+													<textarea name="message"></textarea>
+												</label>
+												<!-- your other form fields go here -->
+												<button type="submit">发送消息Send Message</button>												
 											</form>
 										</div>
 									</div>
